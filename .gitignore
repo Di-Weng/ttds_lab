@@ -70,3 +70,10 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 data/
+.idea/.gitignore
+.idea/misc.xml
+.idea/modules.xml
+.idea/other.xml
+.idea/ttds_lab.iml
+.idea/vcs.xml
+.idea/inspectionProfiles/profiles_settings.xml
