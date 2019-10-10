@@ -22,12 +22,14 @@ stopword_filepath = '../data/englishST.txt'
 def load_stopword(stopword_path):
     stopword_list = []
     with open(stopword_path, 'r',encoding='utf-8') as f1:
-        stopword_list = [current_word.strip() for current_word in f1]
+        stopword_list = [str(current_word).strip() for current_word in f1]
     return stopword_list
 
 def tokenisation_text(text):
     del_punc = '\W'
     text_nopunc = re.sub(del_punc,' ',text)
+    with open('a.txt','w+') as f1:
+        f1.write(text_nopunc)
     tokenisation_list = text_nopunc.split()
     return tokenisation_list
 
@@ -130,7 +132,13 @@ def draw_heapLaw(token_lowerlist_nostop):
     plt.legend()
     plt.show()
 
+def token_lower_nostop_stem_list(all_text, stopword_list):
+    token_list = tokenisation_text(all_text)
+    token_lowerlist = lower_word(token_list)
+    token_lowerlist_nostop = [str(current_word) for current_word in token_lowerlist if str(current_word) not in stopword_list]
+    stem_list = [stem(current_word) for current_word in token_lowerlist_nostop]
 
+    return stem_list
 
 if __name__ == '__main__':
     stopword_list = load_stopword(stopword_filepath)
