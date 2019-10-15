@@ -77,3 +77,5 @@ data/
 .idea/ttds_lab.iml
 .idea/vcs.xml
 .idea/inspectionProfiles/profiles_settings.xml
+lab/.ipynb_checkpoints/lab2_3-checkpoint.ipynb
+lab/__pycache__/lab1.cpython-37.pyc
