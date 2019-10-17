@@ -1,9 +1,10 @@
-1 Scotland
-2 Window
-3 replacing
-4 condemning
-5 income OR taxes
-6 income AND NOT taxes
-7 "income taxes"
-8 #10(income, taxes)
-9 "middle east" AND peace
+1 Happiness
+2 Edinburgh AND SCOTLAND
+3 income AND taxes
+4 "income taxes"
+5 #20(income, taxes)
+6 "middle east" AND peace
+7 "islam religion"
+8 "Financial times" AND NOT BBC
+9 "wall street" AND "dow jones"
+10 #15(dow,stocks)
