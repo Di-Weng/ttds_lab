@@ -5,9 +5,9 @@
    Author  : diw
    Email   : di.W@hotmail.com
    File    : query.py
-   Desc: loading a inverted index file then output the query result from queries.boolean.txt and queries.ranked.txt, output the results.boolean.txt and results.ranked.txt respectively.
+   Desc: Loading a inverted index file then output the query result from queries.boolean.txt and queries.ranked.txt, output the results.boolean.txt and results.ranked.txt respectively.
    you could at most specify two files, but at least one files.
-    python query.py --stopword englishST.txt --q1 queries.boolean.txt --q2 queries.ranked.txt
+    python query.py --stopword englishST.txt --index index.txt --q1 queries.boolean.txt --q2 queries.ranked.txt
 
 -------------------------------
 """

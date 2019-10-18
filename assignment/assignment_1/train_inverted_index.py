@@ -5,7 +5,7 @@
    Author  : diw
    Email   : di.W@hotmail.com
    File    : train_inverted_index.py
-   Desc: Given a specific xml,transformed it into a standard xml file, then output the inverted index to  index.txt.
+   Desc: Given a specific xml, transforming it into a standard xml file, then output the inverted index to  index.txt.
         e.g python train_inverted_index.py --stopword englishST.txt --collection trec.5000.xml
         --stopword: the path of stopword
         --collection: trec xml file, not standard form. Similar to trec.5000.xml and trec.sample.xml
